@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <!-- style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- left side bar -->
+        <div class="sideBar">
+            <div class="fixed LHSbar">
+
+                <!-- header  -->
+                <div class="topBar leftSide">
+                    <!-- userImg -->
+                    <img class="circleImg userImg" src="assets/img/userPic.jpg" alt="userImg">
+                    <!-- top menu  -->
+                    <div class="menuBar">
+                        <div class="menuItem menu-community"><img src="assets/img/community4.png" alt=""></div>
+                        <div class="menuItem menu-status"><img src="assets/img/status1.png" alt=""></div>
+                        <div class="menuItem menu-chat"><img src="assets/img/chats.jpg" alt=""></div>
+                        <div class="menuItem menu-menu"><img src="assets/img/menu.png" alt=""></div>
+                    </div>
+                </div>
+                <!-- search bar -->
+                <div class="searchContainer">
+                    <div class="searchBar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <!-- <i class="fa-solid fa-arrow-left show"></i> -->
+                        <input type="text" placeholder="Search or start new chat">
+                    </div>
+                    <div class="filter">
+                        <img src="assets/img/bar filter.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="scroll">
+
+                <!-- chatlist -->
+                <div class="chatContainer">
+                    <!-- msg  Notification -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">7:10 PM</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+                                </p>
+                                <span class="msgNotification">3</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- msg  Notification -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">7:10 PM</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    text message</p>
+                                <span class="msgNotification">5</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- received msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">12:57 PM</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    hello!
+                                </p>
+                                <span class="fa-solid fa-angle-down"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- readed msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">yesterday</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check-double readedmsg"></i>
+                                    received a text message
+                                </p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- send msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">3/5/23</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check"></i>
+                                    text message eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+                                </p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- received msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">12:57 PM</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    message deliverd
+                                </p>
+                                <span class="fa-solid fa-angle-down"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- readed msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">yesterday</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check-double readedmsg"></i>
+                                    yyiyiyiyii
+                                </p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- send msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">3/5/23</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check"></i>
+                                    yyiyiyiyiijkkkkkkkkkkkkkkkkkkkkkffffsssssssssssssssssssssssss
+                                </p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- msg  Notification -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">7:10 PM</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    sddddddddddddddddsdsddffssssssssssssssssssssssf</p>
+                                <span class="msgNotification">8</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- received msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">12:57 PM</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    yyiyiyiyii
+                                </p>
+                                <span class="fa-solid fa-angle-down"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- readed msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">yesterday</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check-double readedmsg"></i>
+                                    yyiyiyiyii
+                                </p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- send msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">3/5/23</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check"></i>
+                                    yyiyiyiyiijkkkkkkkkkkkkkkkkkkkkkffffsssssssssssssssssssssssss
+                                </p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- msg  Notification -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">7:10 PM</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    sddddddddddddddddsdsddffssssssssssssssssssssssf</p>
+                                <span class="msgNotification">1</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- received msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">12:57 PM</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check-double"></i>
+                                    yyiyiyiyii
+                                </p>
+                                <span class="fa-solid fa-angle-down"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- readed msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">yesterday</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check-double readedmsg"></i>
+                                    yyiyiyiyii
+                                </p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- send msg  -->
+                    <div class="chats">
+                        <div class="chatProfile">
+                            <img class="circleImg" src="assets/img/dp.jpg" alt="">
+                        </div>
+                        <div class="chatdetails">
+                            <div class="chatName">
+                                <h2 class="name">Dharshini</h2>
+                                <span class="time">3/5/23</span>
+                            </div>
+                            <div class="chatBox">
+                                <p class="chatmsg">
+                                    <i class="fa-solid fa-check"></i>
+                                    yyiyiyiyiijkkkkkkkkkkkkkkkkkkkkkffffsssssssssssssssssssssssss
+                                </p>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- privacy statement -->
+                <div class="privacy">
+                    <p><i class="fa-solid fa-lock"></i> Your personal messages are <a href="###">end - to - end
+                            encrypted</a></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- main Section  -->
+        <div class="mainContainer">
+            <!-- header -->
+            <div class="topBar rightSide fixed">
+                <div class="userImg">
+                    <img class="circleImg userImg" src="assets/img/userPic.jpg" alt="userImg">
+                    <h4>Dharshini</h4>
+                </div>
+                <div class="userSeearch">
+                    <i class="fa-solid fa-magnifying-glass mglass"></i>
+                    <img src="assets/img/menu.png" alt="">
+                </div>
+            </div>
+
+            <!-- chatScreen -->
+            <div class="scrollchats">
+                <div class="mainSection">
+
+                    <!-- date-sunday  -->
+                    <div class="label-date"><span class="date">sunday</span></div>
+                    <!-- privacy -->
+                    <div class="label-learnMore">
+                        <a class="learnMore">
+                            <i class="fa-solid fa-lock"></i> Messages are end-to-end encrypted. No one outside of this
+                            chat,
+                            not even WhatsApp, can read or listen to them. Click to learn more.</a>
+                    </div>
+
+
+
+                    <!-- msgOut / msg  seen -->
+                    <div class="row msgOut">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    hello...
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">
+                                    11:20 am<i class="fa-solid fa-check-double msgStatus seen"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- date-yesterday  -->
+                    <div class="label-date"><span class="date">yesterday</span></div>
+
+                    <!-- msgIn / msg received   -->
+                    <div class="row msgIn">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    hi how may i help you?
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">11:20 am</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- msgIn / msg received   -->
+                    <div class="row msgIn">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    For our women's best premeium customer care service..please choose your language or
+                                    let
+                                    me know the number only...<br>
+                                    1. Tamil <br>
+                                    2. English <br>
+                                    3. Telugu <br>
+                                    4. kannada <br>
+                                </span>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">11:30 am</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- date-today  -->
+                    <div class="label-date"><span class="date">today</span></div>
+
+                    <!-- msgOut / msg  seen -->
+                    <div class="row msgOut">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    2
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">
+                                    11:20 am<i class="fa-solid fa-check-double msgStatus seen"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- msgIn / msg received   -->
+                    <div class="row msgIn">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <!-- your txt  -->
+                            <div class="msgBox">
+                                <span class="msg">
+                                    Thank you, which country are you from?
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">11:20 am</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- msgOut / msg  seen -->
+                    <div class="row msgOut">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    India
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">
+                                    11:45 am<i class="fa-solid fa-check-double msgStatus seen"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- msgIn / msg received   -->
+                    <div class="row msgIn">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    ok now i know where you come from, do you want to tell me your first and last name?
+                                </span>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">11:30 am</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- msgOut / msg  seen -->
+                    <div class="row msgOut">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    andrew Jeo
+                                </span>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">
+                                    11:20 am<i class="fa-solid fa-check-double msgStatus seen"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- msgIn / msg received   -->
+                    <div class="row msgIn">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                            <!-- your txt  -->
+                            <span class="msg">
+                                great, andrew.. now i need your email address so i can solve your problem quickly.
+                            </span><br>
+                            <!-- msg-timing-send status  -->
+                            <span class="msgtime msg-status">11:30 am</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- msgOut / msg  seen -->
+                    <div class="row msgOut">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    andrew@gmail.com
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">
+                                    11:25 am<i class="fa-solid fa-check-double msgStatus seen"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- msgIn / msg received   -->
+                    <div class="row msgIn">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    Thank you
+                                </span>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">11:30 am</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- msgOut / msg  seen -->
+                    <div class="row msgOut">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    i have a query
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">
+                                    12:30 pm<i class="fa-solid fa-check-double msgStatus seen"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- msgIn / msg received   -->
+                    <div class="row msgIn">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    please share your query
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">12:50 pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- msgOut / msg  delivered -->
+                    <div class="row msgOut">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <span class="msg">
+                                    pricing details...
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">01:10 pm
+                                    <i class="fa-solid fa-check-double msgStatus"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- msgOut / msg  seen -->
+                    <div class="row msgOut">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    India
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">
+                                    11:45 am<i class="fa-solid fa-check-double msgStatus seen"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- msgOut / msg  send -->
+                    <div class="row msgOut">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">
+                                    message
+                                </span><br>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">
+                                    11:20 am
+                                    <i class="fa-solid fa-check msgStatus"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- msgOut / msg  send -->
+                    <div class="row msgOut">
+                        <!-- emoji  -->
+                        <div class="emoji">
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <!-- text msg container -->
+                        <div class="msgContainer">
+                            <!-- hoverAngle -->
+                            <span class="hoverAngle">
+                                <i class="fa-solid fa-angle-down msgAngle"></i>
+                            </span>
+                            <div class="msgBox">
+                                <!-- your txt  -->
+                                <span class="msg">text message
+                                </span>
+                                <!-- msg-timing-send status  -->
+                                <span class="msgtime msg-status">
+                                    11:20 am
+                                    <i class="fa-solid fa-check msgStatus"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <!-- footer  -->
+            <footer>
+                <i class="fa-regular fa-face-smile"></i>
+                <i class="fa-solid fa-paperclip"></i>
+                <input type="text" placeholder="Type a message">
+                <i class="fa-solid fa-microphone"></i>
+            </footer>
+
+        </div>
+
+    </div>
+
+
+    <!-- javascript link  -->
+    <script src="file.js"></script>
+</body>
+
+</html>
